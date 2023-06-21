@@ -9,3 +9,14 @@
     display: none;
   }
 }
+
+li,
+a {
+  display: inline-block;
+
+  text-decoration: none;
+  justify-content: space-between;
+}
+.flex-container-tablet-top {
+  border: 16px solid red;
+}
