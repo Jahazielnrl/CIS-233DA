@@ -5,78 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tourist webpage</title>
+    <link rel="stylesheet" href="style-s.css" />
+    <link rel="stylesheet" href="style-m.css" />
+    <link rel="stylesheet" href="style-l.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Chicago</a></li>
-        <li><a href="#">Seatle</a></li>
-        <li><a href="#">Los Angles</a></li>
-        <li><a href="#">Huston</a></li>
-        <li><a href="#">New York</a></li>
-      </ul>
-    </nav>
-    <header></header>
-    <main>
-      <div class="city-name">
-        <h2>Chicago</h2>
-      </div>
-      <div class="weather"></div>
-      <div class="large-middle-image">
-        <img src="images/chicago-city.jpg" alt="" width="800" height="400" />
-      </div>
-      <div class="city-facts">
-        <p>
-          Chicago is known as the "Windy City," but it doesn't actually have the
-          windiest weather in the United States. The nickname originated in the
-          late 19th century as a metaphorical reference to the city's
-          long-winded politicians rather than its weather patterns. The Chicago
-          River is famous for being dyed green every year on St. Patrick's Day.
-          The tradition began in 1962 when city officials accidentally poured
-          100 pounds of green dye into the river. Today, they use an
-          eco-friendly vegetable dye to turn the river a vibrant green color.
-          Chicago is home to the first-ever skyscraper. The Home Insurance
-          Building, completed in 1885, was the first tall building to use a
-          steel frame, allowing it to reach a height of 138 feet. While it was
-          demolished in 1931, its innovative design paved the way for the modern
-          skyscrapers that define Chicago's skyline today. The iconic deep-dish
-          pizza was invented in Chicago. In the 1940s, Pizzeria Uno and Pizzeria
-          Due developed the deep-dish style, characterized by its thick, buttery
-          crust, generous cheese layer, and chunky tomato sauce on top. It has
-          since become a beloved staple of Chicago's culinary scene. Chicago is
-          home to one of the largest and most diverse collections of
-          Impressionist and Post-Impressionist art outside of France. The Art
-          Institute of Chicago houses renowned works by artists such as Claude
-          Monet, Georges Seurat, Vincent van Gogh, and Pierre-Auguste Renoir,
-          making it a must-visit destination for art enthusiasts.
-        </p>
-      </div>
-      <div class="left-image">
-        <img src="images/chicago-bean.jpg" alt="" width="600" height="400" />
-      </div>
-      <div class="left-middle-image">
-        <img
-          src="images/chicago-city-night.jpg"
-          alt=""
-          width="600"
-          height="400"
-        />
-      </div>
-      <div class="middle-right-image">
-        <img src="images/chicago-theater.jpg" alt="" width="600" height="400" />
-      </div>
-      <div class="right-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/iWSA3sUh63Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </main>
-    <footer></footer>
+    <div id="small">
+      small
+      <select name="" id="city-selector">
+        <option value="">Select a city</option>
+        <option value="">Chicago</option>
+        <option value="">Seattle</option>
+        <option value="">Los Angles</option>
+        <option value="">Huston</option>
+        <option value="">New York</option>
+      </select>
+    </div>
+    <div id="medium">this is medium</div>
+    <div id="large">
+      <nav>
+        <ul>
+          <li><a href="#">Chicago</a></li>
+          <li><a href="#">Seatle</a></li>
+          <li><a href="#">Los Angles</a></li>
+          <li><a href="#">Huston</a></li>
+          <li><a href="#">New York</a></li>
+        </ul>
+      </nav>
+      <header></header>
+      <main>
+        <div class="city-name">
+          <h2>Chicago</h2>
+        </div>
+        <div class="weather">Weather</div>
+        <div class="large-middle-image">
+          <img src="images/chicago-city.jpg" alt="" width="800" height="400" />
+        </div>
+        <div class="city-facts">
+          <p>
+            Chicago is known as the "Windy City," but it doesn't actually have
+            the windiest weather in the United States. The nickname originated
+            in the late 19th century as a metaphorical reference to the city's
+            long-winded politicians rather than its weather patterns. The
+            Chicago River is famous for being dyed green every year on St.
+            Patrick's Day. The tradition began in 1962 when city officials
+            accidentally poured 100 pounds of green dye into the river. Today,
+            they use an eco-friendly vegetable dye to turn the river a vibrant
+            green color. Chicago is home to the first-ever skyscraper. The Home
+            Insurance Building, completed in 1885, was the first tall building
+            to use a steel frame, allowing it to reach a height of 138 feet.
+            While it was demolished in 1931, its innovative design paved the way
+            for the modern skyscrapers that define Chicago's skyline today. The
+            iconic deep-dish pizza was invented in Chicago. In the 1940s,
+            Pizzeria Uno and Pizzeria Due developed the deep-dish style,
+            characterized by its thick, buttery crust, generous cheese layer,
+            and chunky tomato sauce on top. It has since become a beloved staple
+            of Chicago's culinary scene. Chicago is home to one of the largest
+            and most diverse collections of Impressionist and Post-Impressionist
+            art outside of France. The Art Institute of Chicago houses renowned
+            works by artists such as Claude Monet, Georges Seurat, Vincent van
+            Gogh, and Pierre-Auguste Renoir, making it a must-visit destination
+            for art enthusiasts.
+          </p>
+        </div>
+        <div class="left-image">
+          <img src="images/chicago-bean.jpg" alt="" width="600" height="400" />
+        </div>
+        <div class="left-middle-image">
+          <img
+            src="images/chicago-city-night.jpg"
+            alt=""
+            width="600"
+            height="400"
+          />
+        </div>
+        <div class="middle-right-image">
+          <img
+            src="images/chicago-theater.jpg"
+            alt=""
+            width="600"
+            height="400"
+          />
+        </div>
+        <div class="right-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/iWSA3sUh63Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
   </body>
 </html>
