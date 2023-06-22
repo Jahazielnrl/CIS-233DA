@@ -10,13 +10,39 @@
   }
 }
 
-li,
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+a {
+  text-decoration: none;
+}
+/* li,
 a {
   display: inline-block;
 
   text-decoration: none;
   justify-content: space-between;
+  margin-left: 2.5rem;
 }
 .flex-container-tablet-top {
   border: 16px solid red;
+} */
+
+.tablet-row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
 }

@@ -11,3 +11,14 @@
   width: 400px;
   padding: 5px;
 }
+.phone-row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.weather {
+  border: 2px solid black;
+  flex-direction: row;
+}
