@@ -8,21 +8,35 @@
   display: none;
 }
 #city-selector {
-  width: 400px;
+  width: 600px;
   padding: 5px;
 }
 .phone-row {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 95%;
   align-items: center;
   margin: auto;
 }
 .weather {
   border: 2px solid black;
   flex-direction: row;
+  margin: 10px;
 }
 .city-name h2 {
   color: gray;
   /* used gray color for city name */
 }
+.left-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.right-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */

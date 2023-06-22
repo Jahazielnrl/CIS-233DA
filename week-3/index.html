@@ -12,7 +12,7 @@
   <body>
     <div id="small">
       <div class="phone-row">
-      <select name="" id="city-selector">
+      <select name="city" id="city-selector">
         <option value="">Select a city</option>
         <option value="">Chicago</option>
         <option value="">Seattle</option>
@@ -26,22 +26,34 @@
           <h2>Chicago</h2>
         </div>
         <div class="weather">
+          <div class="phone-row">
           <div class="text-weather"><p>Weather</p></div>
           <div class="rain-logo"><img src="images/weather-logo.png" alt="" width="60" height="60"></div>
-          <p>Currently : 75 ° Hi: 78 ° / low: 58 °
+          <div class="weather-data"><p>Currently : 75 ° Hi: 78 ° / low: 58 °
             Humidity: 87%
            </p>
+          </div>
+          </div>
         </div>
       </div>
       <div class="phone-row">
-        <img src="images/chicago-city.jpg" alt="" width="600" height="250">
+        <img src="images/chicago-city.jpg" alt="" width="550" height="275">
       </div>
       <div class="phone-row">
-        <img src="images/chicago-bean.jpg" alt="" width="250" height="125">
-        <img src="images/chicago-city-night.jpg" alt="" width="250" height="125">
+        <div class="left-image">
+          <img src="images/chicago-bean.jpg" alt="" width="225" height="112">
+        </div>
+        
+        <div class="right-image"><img src="images/chicago-city-night.jpg" alt="" width="225" height="112">
+        </div>
+        
       </div>
       <div class="phone-row">
-        <img src="images/chicago-theater.jpg" alt="" width="550" height="200">
+        
+          <img src="images/chicago-theater.jpg" alt="" width="550" height="275">
+
+        
+        
       </div>
       <div class="phone-row">
         <div class="city-facts">
@@ -73,11 +85,12 @@
         </div>
 
       </div>
+      <div class="bottom-video">
       <div class="phone-row">
-        <div class="right-video">
+        
           <iframe
-            width="450"
-            height="225"
+            width="550"
+            height="275"
             src="https://www.youtube.com/embed/iWSA3sUh63Y"
             title="YouTube video player"
             frameborder="0"
