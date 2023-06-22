@@ -22,3 +22,7 @@
   border: 2px solid black;
   flex-direction: row;
 }
+.city-name h2 {
+  color: gray;
+  /* used gray color for city name */
+}
