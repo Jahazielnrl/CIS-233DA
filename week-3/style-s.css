@@ -7,5 +7,7 @@
 #large {
   display: none;
 }
-select {
+#city-selector {
+  width: 400px;
+  padding: 5px;
 }
