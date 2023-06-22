@@ -20,15 +20,15 @@ a {
   font-size: 20px;
 } */
 .flex-container-top {
-  border: 16px solid red;
+  /* border: 16px solid red; */
 }
 .flex-container-middle {
-  border: 16px solid green;
+  /* border: 16px solid green; */
   display: flex;
   flex-direction: row;
 }
 .flex-container-bottom {
-  border: 16px solid blue;
+  /* border: 16px solid blue; */
   display: flex;
   flex-direction: row;
 }
