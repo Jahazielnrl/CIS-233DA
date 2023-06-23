@@ -1,3 +1,9 @@
+/* 
+black rgb(0, 0, 0)
+  gray rgb(128, 128, 128)
+  red rgb(255,0,0)
+  green rgb(0,255,0)
+   */
 #medium {
   display: none;
 }
@@ -19,12 +25,12 @@
   margin: auto;
 }
 .weather {
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   flex-direction: row;
   margin: 10px;
 }
 .city-name h2 {
-  color: gray;
+  color: rgb(128, 128, 128);
   /* used gray color for city name */
 }
 .left-image {
