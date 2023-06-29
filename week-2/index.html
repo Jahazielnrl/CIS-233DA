@@ -5,12 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gateway Community College</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        footer {
+        display: grid;
+        grid-template-columns: 75% auto;
+        background-color: rgb(0, 51, 161);
+        
+
+        }
+        ul{
+            list-style-type: none;
+            
+
+        }
+        li{
+            display: inline;
+        }
+        div a{
+            
+            text-decoration: none;
+            color: whitesmoke;
+        }
+       
+        #links{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 10px;
+            
+        }
+        body{
+            display: grid;
+            grid-template-rows: 40% auto;
+            height: 100vh;
+            
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 51, 161);
+            font-size: 25px;
+            
+            margin: 20px;
+        }
+
+    </style>
 </head>
 <body>
     <main>
         Gateway Community College
     </main>
     <footer>
+        <div id="links">
         <div><a href="https://www.scottsdalecc.edu/college-police" title="College Police" >College&nbsp;Police</a></div>
         <div><a href="https://www.scottsdalecc.edu/disclosures" title="Disclosures">Disclosures</a></div>
         <div><a href="https://www.scottsdalecc.edu/human-resources" title="Jobs">Jobs</a></div>
@@ -19,6 +70,9 @@
         <div><a href="https://www.scottsdalecc.edu/students/technology/scc-help-desk" title="SCC Help Desk" >SCC&nbsp;Help&nbsp;Desk</a></div>
         <div><a href="http://www.wunderground.com/personal-weather-station/dashboard?ID=KAZSCOTT198" title="SCC Weather">SCC&nbsp;Weather</a></div>
         <div><a href="https://www.scottsdalecc.edu/students/policies/nondiscrimination-policy#titleix title="Title IX Coordinator" >Title&nbsp;IX&nbsp;Coordinator</a></div>
+        
+    </div>
+    <div id="images">
         <img src="./images/athletics.svg" alt="Fighting Artichokes Logo"></li>
         <ul>
             <li><img src="./images/twitter.png" alt="Twitter Icon"></li>
@@ -28,6 +82,7 @@
             <li><img src="./images/in.png" alt="LinkedIn Icon"></li>
             <li><img src="./images/tiktok.png" alt="TikTok Icon"></li>
         </ul>
+    </div>
     </footer>
 </body>
 </html>
