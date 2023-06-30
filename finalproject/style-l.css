@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) {
+  #medium {
+    display: none;
+  }
+  #small {
+    display: none;
+  }
+  #large {
+    display: inline;
+  }
+}
+
+.desktop-row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+.display-column {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.flex-container-middle .desktop-row .display-column .city-name {
+  justify-content: center;
+}
+.city-facts {
+  padding: 10px;
+}
+.weather {
+  padding: 10px;
+}
